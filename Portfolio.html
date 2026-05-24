@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kalpana Gupta Portfolio</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+            color:#333;
+        }
+
+        header{
+            background:#111827;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        header h1{
+            font-size:45px;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:20px;
+        }
+
+        nav{
+            margin-top:20px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-size:18px;
+        }
+
+        section{
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .profile-image{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid #111827;
+            margin-bottom:20px;
+        }
+
+        .about p{
+            max-width:700px;
+            margin:auto;
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        .skills-container{
+            margin-top:30px;
+        }
+
+        .skill{
+            display:inline-block;
+            background:#111827;
+            color:white;
+            padding:12px 25px;
+            margin:10px;
+            border-radius:6px;
+            font-size:18px;
+        }
+
+        .projects-container{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:25px;
+            margin-top:30px;
+        }
+
+        .project-card{
+            width:300px;
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .project-card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .project-card h3{
+            margin:15px 0;
+        }
+
+        .project-card p{
+            padding:0 15px 20px;
+        }
+
+        .resume-btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:14px 30px;
+            background:#111827;
+            color:white;
+            text-decoration:none;
+            border-radius:6px;
+            font-size:18px;
+        }
+
+        .contact p{
+            font-size:18px;
+            margin:12px 0;
+        }
+
+        footer{
+            background:#111827;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Kalpana Gupta</h1>
+
+        <p>Web Developer | Frontend Developer | UI Designer</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="about" id="about">
+
+        <img 
+            src="https://media.licdn.com/dms/image/v2/D4E03AQFf6k2-dnCUyQ/profile-displayphoto-shrink_800_800/B4EZbQDk5zHoAs-/0/1747247322234?e=1781136000&v=beta&t=VaxJ2Z2lhYtkWTQlkfzTMfl_XF0hTzn6P-Sqp0vPWqY"
+            alt="Kalpana Gupta"
+            class="profile-image"
+        >
+
+        <h2>About Me</h2>
+
+        <br>
+
+        <p>
+            Hello! I am Kalpana Gupta, a passionate and creative web developer
+            with strong skills in HTML, CSS, JavaScript, and React.
+            I enjoy building responsive and user-friendly websites that provide
+            a great user experience. I am always eager to learn new technologies
+            and improve my development skills.
+        </p>
+
+    </section>
+
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React JS</div>
+            <div class="skill">Python</div>
+            <div class="skill">GitHub</div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop" alt="Calculator Project">
+
+                <h3>Calculator App</h3>
+
+                <p>
+                    A responsive calculator application created using
+                    HTML, CSS, and JavaScript.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1000&auto=format&fit=crop" alt="Landing Page">
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    Modern and responsive landing page design
+                    for web projects.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop" alt="Portfolio Website">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Personal portfolio website to showcase
+                    skills, projects, and achievements.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="resume">
+
+        <h2>Resume</h2>
+
+        <br>
+
+        <p>Click below to download my resume.</p>
+
+        <a href="resume.pdf" class="resume-btn" download>
+            Download Resume
+        </a>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <br>
+
+        <p>Email: kalpanagupta@gmail.com</p>
+
+        <p>Phone: +91 9876543210</p>
+
+        <p>Location: India</p>
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 Kalpana Gupta. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
